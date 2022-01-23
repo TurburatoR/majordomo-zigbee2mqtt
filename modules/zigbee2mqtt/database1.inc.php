@@ -3451,6 +3451,19 @@ $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);    
 
 
+//TS0601
+$par1['zigbeeModel'] = "TS0601";
+$par1['model'] = "_TZE200_fzo2pocs";
+$par1['vendor'] = "TUYA";
+$par1['type'] = "cover";
+$par1['description'] = "TUYA roller blind motor";
+$par1['supports'] = "cover (state, position), options, linkquality";
+$par1['extend'] = "";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
+    
+    
 }
 
 
